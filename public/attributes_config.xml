@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<attributes>
+
+ <attribute1>
+   <name>edition_year</name>
+   <sorting1>ASC</sorting1>
+   <sorting2>DESC</sorting2>
+</attribute1>
+
+ <attribute2>
+   <name>author</name>
+   <sorting1>ASC</sorting1>
+   <sorting2>DESC</sorting2>
+ </attribute2>
+
+ <attribute3>
+   <name>title</name>
+   <sorting1>ASC</sorting1>
+   <sorting2>DESC</sorting2>
+</attribute3>
+
+</attributes>
