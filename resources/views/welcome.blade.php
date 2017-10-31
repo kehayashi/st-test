@@ -73,7 +73,7 @@
                 </div>
 
                 <div class="links">
-                    <form action="/arquivo" method="post" enctype="multipart/form-data">
+                    <form action="/arquivo" method="post" >
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <input type="file" name="arquivo" accept="xlsx/xls" />
 
