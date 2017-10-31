@@ -6,4 +6,4 @@
 
 Route::get('/', 'ArquivoController@readXML');
 
-Route::post('/arquivo', 'ArquivoController@lerArquivo');
+Route::get('/arquivo', 'ArquivoController@lerArquivo');
