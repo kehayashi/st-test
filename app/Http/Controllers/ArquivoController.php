@@ -96,12 +96,12 @@ Class ArquivoController extends Controller {
 
   public function readXML(){
 
-    $xml = simplexml_load_file('attributes_config.xml');
+    //$xml = simplexml_load_file('attributes_config.xml');
 
-    return view('welcome')
-      ->with('attribute1', $xml->attribute1)
-      ->with('attribute2', $xml->attribute2)
-      ->with('attribute3', $xml->attribute3);
+    return view('welcome');
+      //->with('attribute1', $xml->attribute1)
+      //->with('attribute2', $xml->attribute2)
+      //->with('attribute3', $xml->attribute3);
 
   }//readXML
 

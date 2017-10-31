@@ -73,44 +73,7 @@
                 </div>
 
                 <div class="links">
-                    <form action="/arquivo" method="post" enctype="multipart/form-data">
-                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                        <input type="file" name="arquivo" accept="xlsx/xls" />
-
-                        <br><br>
-
-                        @foreach ($attribute1 as $at)
-                          {{ $at->name }}
-                          <select name="{{ $at->name }}">
-                              <option value="null">Selecione</option>
-                              <option value="{{ $at->sorting1 }}">{{ $at->sorting1 }}</option>
-                              <option value="{{ $at->sorting2 }}">{{ $at->sorting2 }}</option>
-                          </select>
-                        @endforeach
-
-                        @foreach ($attribute2 as $at)
-                          {{ $at->name }}
-                          <select name="{{ $at->name }}">
-                              <option value="null">Selecione</option>
-                              <option value="{{ $at->sorting1 }}">{{ $at->sorting1 }}</option>
-                              <option value="{{ $at->sorting2 }}">{{ $at->sorting2 }}</option>
-                          </select>
-                        @endforeach
-
-                        @foreach ($attribute3 as $at)
-                          {{ $at->name }}
-                          <select name="{{ $at->name }}">
-                              <option value="null">Selecione</option>
-                              <option value="{{ $at->sorting1 }}">{{ $at->sorting1 }}</option>
-                              <option value="{{ $at->sorting2 }}">{{ $at->sorting2 }}</option>
-                          </select>
-                        @endforeach
-
-                        <br><br>
-
-                        <button type="submit">Enviar arquivo</button>
-
-                    </form>
+                    
                 </div>
             </div>
         </div>
